@@ -42,22 +42,24 @@ app.get('/searching', function(req, res){
 	var url = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20craigslist.search" +
 	"%20where%20location%3D%22sfbay%22%20and%20type%3D%22jjj%22%20and%20query%3D%22" + val + "%22&format=" +
 	"json&diagnostics=true&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys";
-	console.log(url);
+	// console.log(url);
 
 	// request module is used to process the yql url and return the results in JSON format
 	request(url, function(err, resp, body) {
 		body = JSON.parse(body);
 		// logic used to compare search results with the input from user
-		if (body.query.count === 0 || typeof body.query.results.RDF.item === 'undefined') {
-		   craig = "No results found. Try again.";
+		// console.log(!body.query.results.RDF.item['about'])
+		if (!body.query.results.RDF.item['about'] === false) {
+		  craig = "No results found. Try again.";
 		} else {
-	     craig = body.query.results.RDF.item[0]['about'];
+			results = body.query.results.RDF.item[0]['about']
+	    craig = '<a href ="'+results+'">'+results+'</a>'
 	  }
 	  // pass back the results to client side
 		res.send(craig);
 	});
 
-	//testing the route
+	// testing the route
 	// res.send("WHEEE");
 
 });
