@@ -46,17 +46,23 @@ app.get('/searching', function(req, res){
 
 	// request module is used to process the yql url and return the results in JSON format
 	request(url, function(err, resp, body) {
+		resultsArray = []
 		body = JSON.parse(body);
 		// logic used to compare search results with the input from user
 		// console.log(!body.query.results.RDF.item['about'])
 		if (!body.query.results.RDF.item['about'] === false) {
-		  craig = "No results found. Try again.";
+		  results = "No results found. Try again.";
 		} else {
-			results = body.query.results.RDF.item[0]['about']
-	    craig = '<a href ="'+results+'">'+results+'</a>'
-	  }
+			results = body.query.results.RDF.item
+
+				for (var i = 0; i < results.length; i++) {
+						resultsArray.push(
+							{title:results[i].title[0], about:results[i]["about"], desc:results[i]["description"]}
+						)
+				}
+		}
 	  // pass back the results to client side
-		res.send(craig);
+	  res.send(resultsArray);
 	});
 
 	// testing the route
