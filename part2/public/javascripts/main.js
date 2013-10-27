@@ -15,7 +15,7 @@ $(function(){
     		if (data instanceof Array) {
           $results.html(dataTemplate({resultsArray:data}));
         } else {
-          $results.html(data)
+          $results.html(data);
         };
   		});
   	};
