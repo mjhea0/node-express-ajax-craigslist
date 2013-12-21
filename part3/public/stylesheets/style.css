@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#search {
+	text-align: center;
+	width:500px;
+	height: 70px;
+	font-size:3.5em;
+	border-radius:8px;
+}

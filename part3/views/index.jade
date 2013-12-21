@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	h1 search sf jobs
+	input#search(type="search", placeholder="Search Craig's Jobs")
+	ul#results
+	include template.html
+
+	script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+	script(src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js")
+	script(src="/javascripts/main.js")

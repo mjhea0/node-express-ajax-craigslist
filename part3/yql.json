@@ -1,0 +1,516 @@
+{
+   "query":{
+      "count":1,
+      "created":"2013-10-19T19:17:31Z",
+      "lang":"en-US",
+      "diagnostics":{
+         "url":[
+            {
+               "execution-start-time":"0",
+               "execution-stop-time":"1",
+               "execution-time":"1",
+               "content":"http://www.datatables.org/craigslist/craigslist.search.xml"
+            },
+            {
+               "execution-start-time":"2",
+               "execution-stop-time":"1042",
+               "execution-time":"1040",
+               "content":"http://sfbay.craigslist.org/search/jjj?query=ruby&format=rss"
+            }
+         ],
+         "publiclyCallable":"true",
+         "user-time":"1043",
+         "service-time":"1041",
+         "build-version":"0.2.1867"
+      },
+      "results":{
+         "RDF":{
+            "xmlns":"http://purl.org/rss/1.0/",
+            "admin":"http://webns.net/mvcb/",
+            "content":"http://purl.org/rss/1.0/modules/content/",
+            "dc":"http://purl.org/dc/elements/1.1/",
+            "dcterms":"http://purl.org/dc/terms/",
+            "ev":"http://purl.org/rss/1.0/modules/event/",
+            "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "syn":"http://purl.org/rss/1.0/modules/syndication/",
+            "taxo":"http://purl.org/rss/1.0/modules/taxonomy/",
+            "channel":{
+               "about":"http://sfbay.craigslist.org/search/jjj?format=rss&amp;query=ruby",
+               "title":[
+                  "craigslist SF bay area | all jobs search \"ruby\"",
+                  "craigslist SF bay area | all jobs search \"ruby\""
+               ],
+               "link":"http://sfbay.craigslist.org/search/jjj?query=ruby",
+               "description":null,
+               "language":"en-us",
+               "rights":"&copy; 2013 craigslist",
+               "publisher":"robot@craigslist.org",
+               "creator":"robot@craigslist.org",
+               "source":"http://sfbay.craigslist.org/search/jjj?format=rss&amp;query=ruby",
+               "type":"Collection",
+               "updateBase":"2013-10-19T12:10:53-07:00",
+               "updateFrequency":"1",
+               "updatePeriod":"hourly",
+               "items":{
+                  "Seq":{
+                     "li":[
+                        {
+                           "resource":"http://sfbay.craigslist.org/sby/eng/4138341097.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/sof/4138214932.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/sof/4137883136.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/sof/4137860145.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/eng/4137396932.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/eng/4137395989.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/eby/web/4137152944.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/eby/sof/4137064401.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/sof/4137007201.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sby/eng/4136986382.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sby/eng/4136985671.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sby/sad/4136984503.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/nby/sof/4136778018.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/sof/4136777881.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/sof/4136777183.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sby/sof/4136342418.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/sof/4136008393.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/eng/4135960224.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/sad/4135960226.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/sof/4135960225.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/eby/sof/4135895241.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/pen/sof/4135895076.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/mar/4135843460.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/eng/4135783810.html"
+                        },
+                        {
+                           "resource":"http://sfbay.craigslist.org/sfc/sad/4135783580.html"
+                        }
+                     ]
+                  }
+               }
+            },
+            "item":[
+               {
+                  "about":"http://sfbay.craigslist.org/sby/eng/4138341097.html",
+                  "title":[
+                     "Web Developers @ Fastest Growing, Millions Revenue Corporation (santa clara)",
+                     "Web Developers @ Fastest Growing, Millions Revenue Corporation (santa clara)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sby/eng/4138341097.html",
+                  "description":"Fastest Growing International Company Expanding In US \nWe are expanding in our new engineering office in Santa Clara, CA and looking for: \nMultiple Web Developers \n*About Us* \nAcesse.com is a leading Search Company that provides Online and Mobile Sea [...]",
+                  "date":"2013-10-19T02:21:12-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sby/eng/4138341097.html",
+                  "type":"text",
+                  "issued":"2013-10-19T02:21:12-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/sof/4138214932.html",
+                  "title":[
+                     "Software Engineer - Ruby on Rails (financial district)",
+                     "Software Engineer - Ruby on Rails (financial district)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/sof/4138214932.html",
+                  "description":"Thoughtful Leadership \nAre you a thoughtful software engineer who enjoys working on agile, effective projects? Do you seek a game changing opportunity that could raise the bar for an industry and affect the legacy of people's lives? Do you have an en [...]",
+                  "date":"2013-10-18T22:13:14-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/sof/4138214932.html",
+                  "type":"text",
+                  "issued":"2013-10-18T22:13:14-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/sof/4137883136.html",
+                  "title":[
+                     "Junior Java Engineer (financial district)",
+                     "Junior Java Engineer (financial district)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/sof/4137883136.html",
+                  "description":"Mobile Start-Up: \"Fetch Mobile\" looking for Junior Java Engineer. A great opportunity to learn and build experience. \n--&gt; 1+ year experience or degree in CS or related field \n--&gt; US Citizen or Green Card Holder \n--&gt; SF Bay Area resident \nJob [...]",
+                  "date":"2013-10-18T17:06:57-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/sof/4137883136.html",
+                  "type":"text",
+                  "issued":"2013-10-18T17:06:57-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/sof/4137860145.html",
+                  "title":[
+                     "Senior Linux DevOps Engineer (financial district)",
+                     "Senior Linux DevOps Engineer (financial district)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/sof/4137860145.html",
+                  "description":"Music technology company in San Francisco is looking for a Lead Linux DevOps Engineer. This person will grow and maintain a high-traffic web production environment running on AWS. The ideal candidate will be able to anticipate problems while ensuring [...]",
+                  "date":"2013-10-18T16:51:31-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/sof/4137860145.html",
+                  "type":"text",
+                  "issued":"2013-10-18T16:51:31-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/eng/4137396932.html",
+                  "title":[
+                     "Front End Engineer (bayview)",
+                     "Front End Engineer (bayview)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/eng/4137396932.html",
+                  "description":"Front End Engineer \nRole: \nAs a Front End Engineer at The RealReal you'll be a major contributor to the company's development efforts on the web. You'll be building new features on the company's e-commerce site, helping build out our backend systems  [...]",
+                  "date":"2013-10-18T12:34:53-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/eng/4137396932.html",
+                  "type":"text",
+                  "issued":"2013-10-18T12:34:53-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/eng/4137395989.html",
+                  "title":[
+                     "Senior Ruby on Rails Engineer (bayview)",
+                     "Senior Ruby on Rails Engineer (bayview)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/eng/4137395989.html",
+                  "description":"Senior Ruby on Rails Engineer \nRole: \nAs a Senior Ruby on Rails Engineer at The RealReal you'll be a major contributor to TheRealReal's e-commerce front end, backend systems, and APIs. You'll build APIs to support our mobile applications and admin to [...]",
+                  "date":"2013-10-18T12:34:24-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/eng/4137395989.html",
+                  "type":"text",
+                  "issued":"2013-10-18T12:34:24-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/eby/web/4137152944.html",
+                  "title":[
+                     "Web Developer - Technical Lead / Web Master (emeryville)",
+                     "Web Developer - Technical Lead / Web Master (emeryville)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/eby/web/4137152944.html",
+                  "description":"Who are we? \nMedAmerica is a multi-specialty physician management group which provides management and consulting services to a variety of hospital based physician groups including: Emergency Medicine, Inpatient Hospitalist, and Post-Acute / Ambulator [...]",
+                  "date":"2013-10-18T10:46:44-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/eby/web/4137152944.html",
+                  "type":"text",
+                  "issued":"2013-10-18T10:46:44-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/eby/sof/4137064401.html",
+                  "title":[
+                     "Server Engineer, Mobile (emeryville)",
+                     "Server Engineer, Mobile (emeryville)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/eby/sof/4137064401.html",
+                  "description":"MobiTV is directly responsible for implementing and helping to change the game of technology, through live and on-demand content across a multitude of mobile devices. MobiTV is proud to be the first company, back in 1999, to deliver TV to mobile phon [...]",
+                  "date":"2013-10-18T10:11:29-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/eby/sof/4137064401.html",
+                  "type":"text",
+                  "issued":"2013-10-18T10:11:29-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/sof/4137007201.html",
+                  "title":[
+                     "42452 - Principal Software Engineer, IaaS (San Francisco)",
+                     "42452 - Principal Software Engineer, IaaS (San Francisco)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/sof/4137007201.html",
+                  "description":"EVault, A Seagate Company, is a fast-growing industry leader in network-based data backup and recovery solutions. We've been providing data protection and professional-grade storage solutions to small and mid-size businesses since 1997. Our technolog [...]",
+                  "date":"2013-10-18T09:48:29-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/sof/4137007201.html",
+                  "type":"text",
+                  "issued":"2013-10-18T09:48:29-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sby/eng/4136986382.html",
+                  "title":[
+                     "Production Automation Engineer (san jose downtown)",
+                     "Production Automation Engineer (san jose downtown)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sby/eng/4136986382.html",
+                  "description":"There are over 13 million sales people in the U.S. and collectively these people are paid over $800 billion annually! That is bigger than all of Social Security spending in the U.S. This is a huge market opportunity and Xactly is the leader right in  [...]",
+                  "date":"2013-10-18T09:39:57-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sby/eng/4136986382.html",
+                  "type":"text",
+                  "issued":"2013-10-18T09:39:57-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sby/eng/4136985671.html",
+                  "title":[
+                     "Production Operations Architect (san jose downtown)",
+                     "Production Operations Architect (san jose downtown)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sby/eng/4136985671.html",
+                  "description":"There are over 13 million sales people in the U.S. and collectively these people are paid over $800 billion annually! That is bigger than all of Social Security spending in the U.S. This is a huge market opportunity and Xactly is the leader right in  [...]",
+                  "date":"2013-10-18T09:39:39-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sby/eng/4136985671.html",
+                  "type":"text",
+                  "issued":"2013-10-18T09:39:39-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sby/sad/4136984503.html",
+                  "title":[
+                     "Production Operations Systems Engineer (san jose downtown)",
+                     "Production Operations Systems Engineer (san jose downtown)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sby/sad/4136984503.html",
+                  "description":"There are over 13 million sales people in the U.S. and collectively these people are paid over $800 billion annually! That is bigger than all of Social Security spending in the U.S. This is a huge market opportunity and Xactly is the leader right in  [...]",
+                  "date":"2013-10-18T09:39:11-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sby/sad/4136984503.html",
+                  "type":"text",
+                  "issued":"2013-10-18T09:39:11-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/nby/sof/4136778018.html",
+                  "title":[
+                     "Ruby on Rails Developer (petaluma)",
+                     "Ruby on Rails Developer (petaluma)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/nby/sof/4136778018.html",
+                  "description":"We seek a team-oriented developer to work with our software crew on a suite of new apps designed around accelerating cellular deployments for the telecommunications industry. This position will be based in Petaluma, Ca. \nWe are looking for someone wi [...]",
+                  "date":"2013-10-18T08:13:23-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/nby/sof/4136778018.html",
+                  "type":"text",
+                  "issued":"2013-10-18T08:13:23-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/sof/4136777881.html",
+                  "title":[
+                     "Software Engineer (financial district)",
+                     "Software Engineer (financial district)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/sof/4136777881.html",
+                  "description":"Software Engineer \nWe are looking for software engineers who want to work in a fun, collaborative, and fast paced environment where ownership, problem solving, and teamwork are rewarded. You will write robust, maintainable, and scalable code every da [...]",
+                  "date":"2013-10-18T08:13:19-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/sof/4136777881.html",
+                  "type":"text",
+                  "issued":"2013-10-18T08:13:19-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/sof/4136777183.html",
+                  "title":[
+                     "Senior Software Engineer (financial district)",
+                     "Senior Software Engineer (financial district)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/sof/4136777183.html",
+                  "description":"Senior Software Engineer \nWe are looking for senior software engineers who want to work in a fun, collaborative, and fast paced environment where ownership, problem solving, and teamwork are rewarded. You will write robust, maintainable, and scalable [...]",
+                  "date":"2013-10-18T08:13:01-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/sof/4136777183.html",
+                  "type":"text",
+                  "issued":"2013-10-18T08:13:01-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sby/sof/4136342418.html",
+                  "title":[
+                     "9 week Bootcamp for Aspiring Web Developers (PHP, Ruby, Python) (mountain view)",
+                     "9 week Bootcamp for Aspiring Web Developers (PHP, Ruby, Python) (mountain view)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sby/sof/4136342418.html",
+                  "description":"CodingDojo.co is hiring future instructors and TAs to assist in running its 9 week bootcamp for aspiring web developers. \nAt our bootcamps, with locations in Silicon Valley, CA and Seattle, WA, students learn everything from HTML to Ruby on Rails ami [...]",
+                  "date":"2013-10-17T23:18:04-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sby/sof/4136342418.html",
+                  "type":"text",
+                  "issued":"2013-10-17T23:18:04-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/sof/4136008393.html",
+                  "title":[
+                     "Front end Rails engineer (San Francisco)",
+                     "Front end Rails engineer (San Francisco)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/sof/4136008393.html",
+                  "description":"BookVibe -- Help Us Transform the Way We Discover Books \nRole: Front end Rails engineer \nLocation: San Francisco Bay Area \nCompensation: Competitive salary and significant equity \nAbout us \nParakweet Labs, the creators of BookVibe, is a 6-person star [...]",
+                  "date":"2013-10-17T17:54:20-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/sof/4136008393.html",
+                  "type":"text",
+                  "issued":"2013-10-17T17:54:20-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/eng/4135960224.html",
+                  "title":[
+                     "Senior DevOps Engineer (bayview)",
+                     "Senior DevOps Engineer (bayview)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/eng/4135960224.html",
+                  "description":"Senior DevOps Engineer \nThe RealReal, the world's premier online luxury resale store, is looking for a \"Senior DevOps Engineer\" to manage platform operations and Dev environments for our rapidly growing business. Successful candidate will optimize AW [...]",
+                  "date":"2013-10-17T17:23:07-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/eng/4135960224.html",
+                  "type":"text",
+                  "issued":"2013-10-17T17:23:07-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/sad/4135960226.html",
+                  "title":[
+                     "Senior DevOps Engineer (bayview)",
+                     "Senior DevOps Engineer (bayview)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/sad/4135960226.html",
+                  "description":"Senior DevOps Engineer \nThe RealReal, the world's premier online luxury resale store, is looking for a \"Senior DevOps Engineer\" to manage platform operations and Dev environments for our rapidly growing business. Successful candidate will optimize AW [...]",
+                  "date":"2013-10-17T17:23:07-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/sad/4135960226.html",
+                  "type":"text",
+                  "issued":"2013-10-17T17:23:07-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/sof/4135960225.html",
+                  "title":[
+                     "Senior DevOps Engineer (bayview)",
+                     "Senior DevOps Engineer (bayview)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/sof/4135960225.html",
+                  "description":"Senior DevOps Engineer \nThe RealReal, the world's premier online luxury resale store, is looking for a \"Senior DevOps Engineer\" to manage platform operations and Dev environments for our rapidly growing business. Successful candidate will optimize AW [...]",
+                  "date":"2013-10-17T17:23:07-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/sof/4135960225.html",
+                  "type":"text",
+                  "issued":"2013-10-17T17:23:07-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/eby/sof/4135895241.html",
+                  "title":[
+                     "Linux System Engineer (fremont / union city / newark)",
+                     "Linux System Engineer (fremont / union city / newark)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/eby/sof/4135895241.html",
+                  "description":"We are looking for an experienced System Engineer to join our team to build a cloud and browser-based business platform. You will help to create and drive the overall project and ensure that it meets projected goals and deadlines. \nQUALIFICATION \nExp [...]",
+                  "date":"2013-10-17T16:43:40-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/eby/sof/4135895241.html",
+                  "type":"text",
+                  "issued":"2013-10-17T16:43:40-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/pen/sof/4135895076.html",
+                  "title":[
+                     "Ruby on Rails Engineer (san mateo)",
+                     "Ruby on Rails Engineer (san mateo)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/pen/sof/4135895076.html",
+                  "description":"This stealth start up is looking for a mid-level Ruby on Rails engineer to join a small engineering team. This company is working on a web based fantasy sports product that combines social media and sports, both professional and collegiate. This comp [...]",
+                  "date":"2013-10-17T16:43:35-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/pen/sof/4135895076.html",
+                  "type":"text",
+                  "issued":"2013-10-17T16:43:35-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/mar/4135843460.html",
+                  "title":[
+                     "Search Marketing Specialist (SOMA / south beach)",
+                     "Search Marketing Specialist (SOMA / south beach)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/mar/4135843460.html",
+                  "description":"Cool Indie Media Agency is hiring \nMediasmith is recruiting to support our existing clients and to staff up for recent new business. If you are looking for a new opportunity in search, this could be the spot for you. Read on for all the details. \nPos [...]",
+                  "date":"2013-10-17T16:13:51-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/mar/4135843460.html",
+                  "type":"text",
+                  "issued":"2013-10-17T16:13:51-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/eng/4135783810.html",
+                  "title":[
+                     "Lead Ruby on Rails Engineer - Flexitime - Challenging Projects (San Francisco, CA)",
+                     "Lead Ruby on Rails Engineer - Flexitime - Challenging Projects (San Francisco, CA)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/eng/4135783810.html",
+                  "description":"You're a force of nature -- like an earthquake, but with Ruby on Rails instead of tectonic plates.  And an ORM.   We're building a useful tool that makes real people's lives better, and we want to team up with you to do it faster and better.  We're l [...]",
+                  "date":"2013-10-17T15:40:41-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/eng/4135783810.html",
+                  "type":"text",
+                  "issued":"2013-10-17T15:40:41-07:00"
+               },
+               {
+                  "about":"http://sfbay.craigslist.org/sfc/sad/4135783580.html",
+                  "title":[
+                     "DevOps Engineers - Mid to Senior Level - Top Salary + Stock Options (SOMA / south beach)",
+                     "DevOps Engineers - Mid to Senior Level - Top Salary + Stock Options (SOMA / south beach)"
+                  ],
+                  "link":"http://sfbay.craigslist.org/sfc/sad/4135783580.html",
+                  "description":"\"Meet The Hiring Manager\" for this position in our video about the role and PagerDuty - https://vimeo.com/72075454 \nWe are fanatics about uptime at PagerDuty - we have to be. Startups, Fortune 100 companies, and everything in-between rely on us to al [...]",
+                  "date":"2013-10-17T15:40:33-07:00",
+                  "language":"en-us",
+                  "rights":"&copy; 2013 craigslist",
+                  "source":"http://sfbay.craigslist.org/sfc/sad/4135783580.html",
+                  "type":"text",
+                  "issued":"2013-10-17T15:40:33-07:00"
+               }
+            ]
+         }
+      }
+   }
+}
