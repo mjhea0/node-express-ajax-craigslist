@@ -134,7 +134,7 @@ function requests(url, callback) {
 		body = JSON.parse(body);
 		// console.log(body.query.results.RDF.item)
 		// logic used to compare search results with the input from user
-		if (typeof body.query.results.RDF.item === "undefined") {
+		if (!body.query.results.RDF.item) {
 		  results = "No results found. Try again.";
 		  callback(results);
 		} else {

@@ -49,7 +49,7 @@ app.get('/searching', function(req, res){
 		body = JSON.parse(body);
 		// logic used to compare search results with the input from user
 		// console.log(!body.query.results.RDF.item['about'])
-		if (!body.query.results.RDF.item['about'] === false) {
+		if (!body.query.results.RDF.item) {
 		  craig = "No results found. Try again.";
 		} else {
 			results = body.query.results.RDF.item[0]['about']
