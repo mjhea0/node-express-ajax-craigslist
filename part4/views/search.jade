@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    h1 Search SF Jobs
+    .lead Welcome, #{user}
+    form(METHOD="LINK", ACTION="logout")
+        input(type="submit", value="Logout", class='btn btn-sm btn-primary')
+    br
+    br
+    input#search(type="search", placeholder="search...")
+    br
+    br
+    ul#results
+    include template.html
+
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js")
+    script(src="/javascripts/main.js")

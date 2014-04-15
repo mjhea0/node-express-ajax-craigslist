@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h1 Search Login
+    .lead Please login to search
+    br
+    form(METHOD="LINK", ACTION="/auth/google")
+        input(type="submit", value="Login with Google", class='btn btn-large btn-primary')
+
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js")
+    script(src="/javascripts/main.js")
