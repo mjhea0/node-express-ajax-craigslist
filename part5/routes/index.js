@@ -28,14 +28,21 @@ exports.save = function(req, res){
   var url = req.query.url;
   console.log(title, url);
   var newJob = new job();
-  newJob.title = title;
-  newJob.url = url;
-  console.log(newJob);
-  newJob.save(function(err){
-    if(err){
-      throw err;
-    }
-    console.log("New job, " + newJob.title + ", was added to mongo");
+  job.findOne({'title': title}, function (err, job) {
+    if (job) {
+      console.log('Job already in database.');
+    } else {
+      newJob.title = title;
+      newJob.url = url;
+      newJob.user = req.user._id
+      console.log(newJob);
+      newJob.save(function(err){
+        if(err){
+          throw err;
+        }
+        console.log("New job, " + newJob.title + ", was added to mongo");
+      });
+    };
   });
 };
 
