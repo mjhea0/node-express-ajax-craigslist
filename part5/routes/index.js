@@ -1,4 +1,6 @@
 var request = require('request');
+var config = require('../config');
+var job = require('../models/job');
 
 exports.index = function(req, res){
   res.render('index', { user: req.user });
@@ -25,6 +27,16 @@ exports.save = function(req, res){
   var title = req.query.title;
   var url = req.query.url;
   console.log(title, url);
+  var newJob = new job();
+  newJob.title = title;
+  newJob.url = url;
+  console.log(newJob);
+  newJob.save(function(err){
+    if(err){
+      throw err;
+    }
+    console.log("New job, " + newJob.title + ", was added to mongo");
+  });
 };
 
 function requests(url, callback) {
