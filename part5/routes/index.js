@@ -30,7 +30,7 @@ exports.save = function(req, res){
   var newJob = new job();
   job.findOne({'title': title}, function (err, job) {
     if (job) {
-      console.log('Job already in database.');
+      res.send('Job already in database.');
     } else {
       newJob.title = title;
       newJob.url = url;
@@ -40,7 +40,7 @@ exports.save = function(req, res){
         if(err){
           throw err;
         }
-        console.log("New job, " + newJob.title + ", was added to mongo");
+        res.send("Job, " + newJob.title + ", was added to mongo");
       });
     };
   });

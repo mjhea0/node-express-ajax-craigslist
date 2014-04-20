@@ -25,8 +25,10 @@ $(function(){
     var jobURL = $(this).next('a').attr('href')
     var parameters = { title: jobTitle, url: jobURL };
     console.log(parameters)
+    $(this).parent().remove()
     $.get( '/save', parameters, function(data) {
-      console.log("whee!")
+      $(data).append($('#alert'));
+      console.log(data)
     });
   });
 });
