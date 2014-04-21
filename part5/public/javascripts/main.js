@@ -27,7 +27,7 @@ $(function(){
     console.log(parameters)
     $(this).parent().remove()
     $.get( '/save', parameters, function(data) {
-      $(data).append($('#alert'));
+      $('#alert').html(data)
       console.log(data)
     });
   });
